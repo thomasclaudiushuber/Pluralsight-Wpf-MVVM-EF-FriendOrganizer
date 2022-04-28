@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="EntityFramework" Version="6.4.4" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\FriendOrganizer.Model\FriendOrganizer.Model.csproj" />
+	</ItemGroup>
+</Project>
